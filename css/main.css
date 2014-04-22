@@ -99,6 +99,10 @@ a:hover {
   border-top: 1px solid #e7e7e7;
   margin-top: 1em;
   padding-top: 1.5em;
+  padding-bottom: 0.25em;
+}
+
+.reports {
   padding-bottom: 1.25em;
 }
 
@@ -240,7 +244,7 @@ a:hover {
 .post-title {
   font-weight: 600;
   font-size: 1.4em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .post-date {
@@ -250,6 +254,14 @@ a:hover {
   font-size: 0.65em;
   display: block;
   text-transform: lowercase;
+}
+
+.weekly-report {
+  color: #8a8a8a;
+  font-family: Monaco, "Courier New", monospace;
+  font-weight: 600;
+  font-size: 0.85em;
+  display: block;
 }
 
 #sidebar-button {

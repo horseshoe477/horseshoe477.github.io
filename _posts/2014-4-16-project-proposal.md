@@ -3,7 +3,7 @@ layout: post
 title: Project Proposal
 cover: proposal.png
 date:   2014-04-16 13:16:45
-categories: posts
+categories: deliverable
 ---
 
 ##Overview and Motivation

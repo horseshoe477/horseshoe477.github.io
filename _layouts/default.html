@@ -28,19 +28,34 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
+            {% for post in site.categories.deliverable %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
                   {{ post.title }}
                 </a>
               </li>
+            {% endfor %}
+
+            <li class="post-link">
+              <a href="/about.html" class="post-title">Our Team</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="posts reports">
+          <ul class="posts-list">
+            <li class="post-link">Weekly Reports</li>
+            {% for post in site.categories.weekly-report %}
+            <li class="post-link">
+            <a href="{{ post.url }}">
+              <span class="weekly-report">{{ post.date | date_to_string }} <br/> {{ post.title }}</span>
+            </a>
+            </li>
             {% endfor %}
           </ul>
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="/about.html" class="footer-link">About</a> <span class="separator">&bull;</span>
             <a href="https://github.com/horseshoe477" class="footer-link">GitHub</a>
           </span>
         </div>
