@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Initial Ideas
-cover: cover.jpg
 date:   2014-04-08 12:00:00
 categories: weekly-report
 ---
