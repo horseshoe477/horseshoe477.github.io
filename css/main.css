@@ -255,7 +255,7 @@ a:hover {
 
 .post-title {
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.1em;
   /*text-transform: uppercase;*/
 
 }
@@ -272,7 +272,7 @@ a:hover {
 .weekly-report {
   color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.85em;
   display: block;
 }
