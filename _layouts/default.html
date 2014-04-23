@@ -43,22 +43,22 @@
           </ul>
         </div>
         <div class="posts reports">
-          <ul class="posts-list">
+          <ul class="reports-list">
             <!--<li class="post-link">Weekly Reports</li>-->
             {% for post in site.categories.weekly-report %}
             <li class="post-link">
             <a href="{{ post.url }}">
-              <span class="weekly-report"> Week {{ post.weekno }} - {{ post.title }}</span>
+              <span class="weekly-report"> Week {{ post.weekno }} &bull; {{ post.date | date_to_string }}</span>
             </a>
             </li>
             {% endfor %}
           </ul>
         </div>
-        <div class="footer">
-          <span id="footer-links">
-            <a href="https://github.com/horseshoe477" class="footer-link">GitHub</a>
-          </span>
-        </div>
+        <!--<div class="footer">-->
+        <!--  <span id="footer-links">-->
+        <!--    <a href="https://github.com/horseshoe477" class="footer-link">GitHub</a>-->
+        <!--  </span>-->
+        <!--</div>-->
       </div>
 
         {{ content }}

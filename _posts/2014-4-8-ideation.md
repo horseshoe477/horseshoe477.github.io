@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Initial Ideas
+title: Ideation 
 date:   2014-04-08 12:00:00
+cover: cover.jpg
 categories: weekly-report
 weekno: 1
 ---
+
+
 
 For the first week, our team started to brainstorm our ideas around hardware and software projects that might be appropriate for this capstone course. After a few round of brainstorming, ideation, and voting, we proposed three initial ideas as following:
 

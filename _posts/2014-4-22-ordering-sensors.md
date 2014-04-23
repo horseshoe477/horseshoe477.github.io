@@ -1,19 +1,28 @@
 ---
 layout: post
-title: 
+title: Ordering Sensors
 date:   2014-04-22 12:00:00
+cover: week3cover.jpg
 categories: weekly-report
 weekno: 3
 ---
 
-##NecX
 
-Neck is one such part of our body which densely packs tons of information. It is the neural pass of the body, it can move, it can give vocal data,  it can provide heart rate information, etc. We envision a device which can tap on this information and result in novel input technique while it can also keeping a track on health. The interaction can be fast enough as compared to that of a smartphone, with faster in and faster out. We envision small basic gestures and not a full blown interface. The device will connect to the phone. Haptic feedback can be given to the user. It can take many forms, such by being part of the clothing collar or in a form of a pendant. The neck interactions might not be as socially awkward as by other wearables in the market.
 
-##Glass
-    
-Although technologies have made significant progresses in car safety, current car system is inadequate to assist the drivers to deal with all situations that may hazard their lives. For example, driving on a highway with the direct sunlight to the windscreen can be extremely crucial. In such situation, the sunglasses would not help at all as it not only dims the sunlight, but also darkens the surrounding environment. In turn, drivers usually slow their car speed dramatically, which leaves almost no time for the cars behind them to react and may cause serious accidents. We therefore propose to design a wearable device for this. The basic idea is to build glasses that can capture this sudden changes in light and helps the drivers staying in land with the need of slowing their speed dramatically.
+In the third week, we started to summarized our literature review, discuss the framework in detail and finalized our decision on the sensors, board, etc. Meanwhile, we drafted our product requirements document which includes our critical features, performance metrics, technical details and milestones.
 
-##Air Quality
-    
-The Air we breath in directly affects our health, more so in children. There are tons of devices out there in the market which measure and control Air quality indoors. But, we are always moving. We are not always in our living room, bedroom or in our office space. From secondary research done in one of our earlier projects, it was evident that there is a need for a personal Air quality device, which measures and protects an individual from harmful pollutants. These measurements can be collected and crowdsourced with location data to get accurate pollution levels in a city. This data can be further put to use, for example to give routing information with the least amount of pollutants (this can be crucial for people suffering with asthma and other diseases). The system will not only be beneficial for personal use but also can suggest preventive mechanisms to the city government.
+The following is our inventory list so far(total ERU 131.75). We have already ordered them and just can’t wait to get hands on.
+
+* [Olimex-328](https://www.olimex.com/Products/Duino/AVR/OLIMEXINO-328/open-source-hardware)  (__x1__)   ERU 21.95
+
+* [Bluetooth module](https://www.olimex.com/Products/Duino/AVR/OLIMEXINO-328/open-source-hardware) (__x1__)   ERU 19.95
+
+* [Shield-EKG-EMK](https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/open-source-hardware) (__x3__)   ERU 19.95 x 3 = 59.85
+
+* [EMG Sensors](https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PRO/) (__x3__)   ERU 10 x 3 = 30
+
+
+
+
+
+
