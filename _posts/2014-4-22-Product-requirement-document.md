@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pequirement Document
+title: Requirement Document
 date:   2014-04-22 13:46:45
 categories: deliverable
 ---
