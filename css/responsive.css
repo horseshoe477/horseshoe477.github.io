@@ -3,6 +3,10 @@
     max-width: 95%;
   }
 
+  .post img,
+  .post iframe{
+    max-width: 95%;
+  }
   .header {
     padding-top: 3.45em;
   }
