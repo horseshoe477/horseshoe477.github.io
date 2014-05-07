@@ -24,7 +24,6 @@ weekno: 5
 ### Possible noise to sEMG (see more in [2][2])
 
 * Ambient noise (radiated EMI, specifically 50-60 Hz)
-
 * Transducer noise (different impedence between the skin and electrode sensor)
 
 ### Other issues
