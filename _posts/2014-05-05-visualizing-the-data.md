@@ -36,6 +36,21 @@ weekno: 5
 [2]: http://www.bortec.ca/Images/pdf/EMG%20measurement%20and%20recording.pdf "Important Factors in Surface EMG Measurement"
 [3]: http://www.elin.ttu.ee/mesel/Study/Subjects/0070BME/Content/BioElect/BESignal/BEsignal.htm "Bioelectric signals"
 
+
+# Fix bug in RXTX library
+
+* The bug in SerialImp.c causing unnecessary delay (~20ms)
+* Modify the sleep time from 20000ms to 2000ms, reducing the delay to ~2ms
+* Our ADC sampling rate is 256 Hz (i.e., interval ~3.9ms). The 2ms delay fulfills the system requirement.
+* Ref:
+    * [Bug issue](http://neophob.com/2011/04/serial-latency-teensy-vs-arduino/)
+    * How to compile RxTx: [1](http://warrior-of-agape.blogspot.com/2013/02/serial-communication-in-java-16-for-mac.html)[2](http://stackoverflow.com/questions/13139765/rxtxserial-dll-for-macos-10-8)
+    * [Install RxTx on Mac](http://blog.brianhemeryck.me/installing-rxtx-on-mac-os-mountain-lion/)
+    * [Setup compiler](http://www.quora.com/Mostafa-Ali-Elganainy/Posts/RVM-ruby-Installation-error-on-Mac)
+    * [RxTx source code](https://github.com/ektor5/rxtx-2.2pre2)
+    
+
+
 # Initial data collection
 
 Keyu implemented a real-time sEMG data retrieval and visualization using Python.
