@@ -20,7 +20,6 @@ Neck is one such part of our body which densely packs tons of information. It is
         c. Doze detection
 
 
-
 * Mobile App
 
 * Kickstart website with demo video
