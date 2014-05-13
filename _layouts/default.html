@@ -44,11 +44,12 @@
         </div>
         <div class="posts reports">
           <ul class="reports-list">
+            <li class="links-title">Weekly Reports</li>
             <!--<li class="post-link">Weekly Reports</li>-->
             {% for post in site.categories.weekly-report %}
             <li class="post-link">
             <a href="{{ post.url }}">
-              <span class="weekly-report"> Week {{ post.weekno }} &bull; {{ post.date | date_to_string }}</span>
+              <span class="weekly-report">{{ post.title }}</span>
             </a>
             </li>
             {% endfor %}

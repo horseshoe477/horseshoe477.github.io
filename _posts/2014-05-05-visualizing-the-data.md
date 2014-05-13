@@ -16,7 +16,7 @@ weekno: 5
 
 ### Electrodes
 * Ag-AgCl electrodes (pre-gelled) are used in over 80% of surface EMG (sEMG) applications due to its low impedance and high stability
-* Placement: 
+* Placement:
     * Between the motor unit and the tendinous insertion, along the longitudinal midline of the muscle (fig 9 in [1]).
     * Electrodes should be only 1-2 cm apart.
     * The reference electrode should be placed far from the EMG detecting surface (i.e., on a neutral tissue) → we use bipolar configuration (fig 13 in [1][1])
@@ -48,7 +48,7 @@ weekno: 5
     * [Install RxTx on Mac](http://blog.brianhemeryck.me/installing-rxtx-on-mac-os-mountain-lion/)
     * [Setup compiler](http://www.quora.com/Mostafa-Ali-Elganainy/Posts/RVM-ruby-Installation-error-on-Mac)
     * [RxTx source code](https://github.com/ektor5/rxtx-2.2pre2)
-    
+
 
 
 # Initial data collection

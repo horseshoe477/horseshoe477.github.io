@@ -254,6 +254,14 @@ a:hover {
   margin-bottom: 0.75em;
 }
 
+.links-title {
+  margin-bottom: 1em;
+}
+
+.posts-list {
+  margin: 0;
+}
+
 .post-title {
   font-weight: 600;
   font-size: 1.1em;

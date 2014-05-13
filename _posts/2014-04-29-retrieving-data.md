@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Hardware Kickoff
 date:   2014-04-29 12:00:00
 cover: week3cover.jpg
 categories: weekly-report
