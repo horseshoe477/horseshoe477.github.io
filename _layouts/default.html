@@ -28,14 +28,18 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
+            <li class="post-link">
+              <a href="/NecX.pdf" class="post-title">Final Paper</a>
+            </li>
             {% for post in site.categories.deliverable %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
-                  {{ post.title }}
-                </a>
-              </li>
+            <li class="post-link">
+            <a class="post-title" href="{{ post.url }}">
+              <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
+              {{ post.title }}
+            </a>
+            </li>
             {% endfor %}
+
 
             <li class="post-link">
               <a href="/about.html" class="post-title">Our Team</a> 
